@@ -1,10 +1,6 @@
 <head>
 
 <script src="https://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
-	<script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
 <script type="text/javascript">
   window.onload = function () {
       jQuery("#user-city").text(ymaps.geolocation.city);
@@ -23,4 +19,5 @@
 <div><b>Ваша страна:</b> <span id="user-country"></span></div>
 <div><b>Ваш регион:</b> <span id="user-region"></span></div>
 <div><b>Ваш город:</b> <span id="user-city"></span></div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </body>
